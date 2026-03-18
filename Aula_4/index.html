@@ -20,5 +20,40 @@
             <p>Estamos trabalhando aqui com um <big>texto grande</big> e um <small>texto pequeno</small> nesta frase</p>
         <h2>Texto deletado</h2>
             <p>Neste paragrafo vamos trabalhar com um texto <del>que foi excluído</del> da frase (forma semântica)</p>
+        <h2>Texto inserido</h2>
+            <p>Nesta frase vamos demonstrar como <ins>um texto inserido</ins> na frase de forma semântica</p>
+            <p>Nesta frase vamos demonstrar como <u>um texto inserido</u> na fase de forma não semântica</p>
+        <h2>Texto sobrescrito</h2>
+            <p>Vamos demonstrar uma formula da equação do segundo grau ax<sup>2</sup> + bx + c = 0 usando a tag sup</p>
+        <h2>Texto subescrito</h2>
+            <p>Vamos demonstrar o texto subescrito com a formula da água H<sub>2</sub>O</p>
+        <h2>Trecho de código fonte</h2>
+            <p>Neste exemplo vou demonstrar um trecho de código</p>
+            <p>inserindo o comando <code>document.getElementById('edtCodigo')</code> que é um comando java script</p>
+            <p>Insetindo um longo codigo de python:</p>
+            <p><pre>
+            a = float(input("Digite o coeficiente a: "))
+            b = float(input("Digite o coeficiente b: "))
+            c = float(input("Digite o coeficiente c: "))
+
+            if a == 0:
+                print("O coeficiente 'a' deve ser diferente de zero.")
+            else:
+                delta = b**2 - 4*a*c
+                print(f"Delta: {delta}")
+
+            if delta < 0:
+                print("A equação não possui raízes reais.")
+            elif delta == 0:
+                x = -b / (2*a)
+                print(f"A equação possui uma raiz real: x = {x}")
+            else:
+                x1 = (-b + math.sqrt(delta)) / (2*a)
+                x2 = (-b - math.sqrt(delta)) / (2*a)
+                print(f"A equação possui duas raízes reais: x1 = {x1} e x2 = {x2}")
+            </pre></p>]
+        <H2>Citações (quotation) simples</H2>
+            <p>Segundo Steve Jobs "A tecnologia move o mundo"</p>
+        <h2>Citações completas (livros)</h2>
 </body>
 </html>
