@@ -1,0 +1,39 @@
+button {
+    background-color: blue;
+    width: 100px;
+
+}
+
+button:hover {
+    background-color: brown;
+}
+
+button:active {
+    background-color: aliceblue;
+}
+
+.Links::after {
+    content: '✴︎';
+    color: aqua;
+}
+
+a {
+    text-decoration: none;
+}
+
+p::after {
+    content: '♬';
+}
+
+.Links::before {
+    content: '♬';
+    color: black;
+}
+
+.parte1 {
+    background-color: rgb(128, 168, 168);
+}
+
+.parte2 {
+    background-color: rgba(89, 145, 145, 0.473);
+}
